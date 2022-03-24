@@ -1,0 +1,149 @@
+body{
+    font-family:sans-serif;
+}
+ul {
+    list-style:none;
+    display:flex;
+}
+
+li {
+    margin:8px;
+}
+
+a{
+    text-decoration:none;
+    color: #E5E7EB;
+}
+
+button{
+    border-radius: 8px;
+    background-color:#3882F6;
+    width:128px;
+    height:32px;
+}
+
+.top {
+    background-color:#1f2937;
+    display:flex;
+    flex-direction:column;
+}
+
+.header{
+    background-color:#1f2937;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin:0 400px 0px 400px;
+}
+
+.logo{
+    font-size:24px;
+    color:#F9FAF8;
+    font-weight:bold;
+    margin-right:400px;
+}
+
+.links{
+    font-size: 18px;
+}
+
+.hero{
+    margin:128px 400px 128px 400px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.heroleft{
+    margin-right:64px;
+}
+
+.herotitle{
+    font-size: 48px; 
+    font-weight:1000;
+    color: #F9FAF8;
+    width:500px;
+}
+
+.heroinfo {
+    color: #e5e7eb;
+    font-size:18px;
+    width:500px;
+}
+
+#herobutton{
+    font-size:16px;
+    color:white;
+    font-weight:bold;
+    margin:8px 0 0 0;
+}
+#heroimg{
+    display:flex;
+    height:200px;
+    width:450px;
+}
+
+.middle{
+    padding:64px;
+}
+.infotitle{
+    font-size:36px;
+    font-weight:1000;
+    color:#1f2937;
+    display:flex;
+    justify-content:center;
+    margin-bottom:64px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin:64px;
+}
+
+.infoimg {
+    width:200px;
+    height:200px;
+    border-radius: 8px;
+}
+
+.info {
+    max-width:200px;
+}
+
+.bottom{
+    background-color:#E5E7EB;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:128px;
+}
+
+.quote{
+    font-size:36px;
+    font-weight:200;
+    font-style:italic;
+    color:#1F2937;
+    width:800px;
+    display:flex;
+    flex-direction:row;
+}
+
+.quotecredit{
+    font-size:18px;
+    font-weight:1000;
+    display:flex;
+    width:600px;
+    justify-content:right;
+}
+
+.action{
+    background-color:#3882F6;
+}
+.footer{
+    background-color:#1f2937;
+}
