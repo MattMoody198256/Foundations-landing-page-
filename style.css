@@ -20,6 +20,7 @@ button{
     background-color:#3882F6;
     width:128px;
     height:32px;
+    font-size:16px;
 }
 
 .top {
@@ -74,7 +75,6 @@ button{
 }
 
 #herobutton{
-    font-size:16px;
     color:white;
     font-weight:bold;
     margin:8px 0 0 0;
@@ -142,8 +142,44 @@ button{
 }
 
 .action{
+   height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.actioncontainer{
     background-color:#3882F6;
+    width:1000px;
+    height:128px;
+    border-radius: 8px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:64px;
+}
+
+.actiontitle{
+    color:#F9FAF8;
+    font-size:24px;
+    font-weight:1000;
+}
+
+.actioninfo{
+    color:#F9FAF8;
+}
+
+#actionbutton{
+    color:#F9FAF8;
+    border: 2px solid #F9FAF8;
+    font-weight:bold;
+    margin-left:64px;
 }
 .footer{
     background-color:#1f2937;
+    color: #e5e7eb;
+    height:128px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
