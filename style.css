@@ -33,7 +33,7 @@ button{
     background-color:#1f2937;
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
     margin:0 400px 0px 400px;
 }
@@ -50,11 +50,11 @@ button{
 }
 
 .hero{
-    margin:128px 400px 128px 400px;
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
+    margin:128px 0 128px 0;
 }
 
 .heroleft{
